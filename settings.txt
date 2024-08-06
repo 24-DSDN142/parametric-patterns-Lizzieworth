@@ -10,13 +10,11 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+let cherryLX=40 // cherry
+let cherryLY=50
+
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -34,13 +32,224 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+var SparkleX=75; // large sparkle 
+var SparkleY=25;
+var CherryX=40 // cherry 
+var CherryY=50
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+}
+
+Wallpaper 3:
+var SparkleX=75; // large sparkle 
+var SparkleY=25;
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 25 // used for Watermelon and will be used for cantelope using an if statement 
+var MelonY = 25
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+Wallpaper 4:
+
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var DiamondX = 10 // small diamond shape 
+var DiamondY = 10
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 25
+var MelonY = 25
+var Melon = 1  // if statement 
+// 1 = watermelom,, 2 = cantalope
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 5:
+
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var DiamondX = 10 // small diamond shape 
+var DiamondY = 10
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 25 // same 'x' and 'y' are used for watermelon and cantelope 
+var MelonY = 25
+var Melon = 2   // if statement 
+// 1 = watermelom,, 2 = cantalope
+var RainbowX = 50 
+var RainbowY = 100
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 6:
+
+//your parameter variables go here!
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var DiamondX = 10 // small diamond shape 
+var DiamondY = 10
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 25 // same 'x' and 'y' are used for watermelon and cantelope 
+var MelonY = 25
+var Melon = 2   // if statement 
+// 1 = watermelom,, 2 = cantalope
+var RainbowX = 50 
+var RainbowY = 100
+var BubbleX = 10 // bubble backfround, uses same parameters as sparkle backgrpound
+var BubbleY = 50
+var BG = 2 // if statement 
+//  1 = Sparkles , 2 = Bubbles     /// changes to bubbles for this wallpaper version
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 7:
+
+//your parameter variables go here!
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var DiamondX = 10 // small diamond shape 
+var DiamondY = 10
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 25
+var MelonY = 25
+var Melon = 1   // if statement 
+// 1 = watermelom,, 2 = cantalope
+var RainbowX = 50
+var RainbowY = 100
+var BubbleX = 10 / bubble backfround, uses same parameters as sparkle backgrpound
+var BubbleY = 50
+var BG = 1 // if statement 
+//  1 = Sparkles , 2 = Bubbles     // changes to sparkles for this wallpaper version
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 8:
+
+//your parameter variables go here!
+
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var DiamondX = 10 // small diamond shape 
+var DiamondY = 10
+var CherryX=40 // cherry
+var CherryY=50
+var MelonX = 22
+var MelonY = 25
+var Melon = 1// if statement 
+// 1 = watermelom,, 2 = cantalope  // changed to 1 for watermelon in this wallpaper version
+var RainbowX = 50
+var RainbowY = 100
+var SparklebgX=87 // sparkle background 
+var SparklebgY=45 // bubble background 
+var BubbleX = 10
+var BubbleY = 50
+var BG = 2 // if statement   
+//  1 = Sparkles , 2 = Bubbles  // using bubble background for this wallpaper 
+var OrangeX = 35
+var OrangeY = 5
+var Fruit = 1 // if statement 
+//  1 = Orange , 2 = Apple  // changed to orange for this wallpaper 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 9:
+
+//your parameter variables go here!
+var SparkleX=75; // large diamond shape 
+var SparkleY=25;
+var CherryX=40
+var CherryY=50 // cherry 
+var MelonX = 22
+var MelonY = 25
+var Melon = 1// if statement 
+// 1 = watermelom,, 2 = cantalope
+var DiamondX = 10 // small diamond shape  // changed to 1 for watermelon in this wallpaper version
+var DiamondY = 10
+var RainbowX = 50
+var RainbowY = 100
+var SparklebgX=87 
+var SparklebgY=45
+var BubbleX = 10
+var BubbleY = 50
+var BG = 1 // if statement 
+//  1 = Sparkles , 2 = Bubbles // chnges to sparkles for this wallpaper
+var OrangeX = 35
+var OrangeY = 5
+var Fruit = 1 // if statement 
+//  1 = Orange , 2 = Apple // changes to orange for this wallpaper 
+var SunX = 50
+var SunY = 95 // sun was the last parameter that has been added 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
